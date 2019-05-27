@@ -1,0 +1,27 @@
+body img.bg{
+    /*background-size:cover|contain;*/
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+body nav{
+    margin-top: 30px;
+}
+.content{
+    margin-top: calc(50vh - 100px);
+    transform: translateY(-50%);
+}
+p.main{
+    font-size: 70px;
+    font-weight: 500;
+}
+p.least{
+    font-size: 20px
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}

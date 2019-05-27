@@ -1,0 +1,70 @@
+
+		
+/*内容*/
+	  *{
+			      margin:0;
+				  padding:0;
+			 }
+	html,body{
+	      margin:0;
+		  padding:0;
+		  margin-top:0px;
+		  background-image: url("../images/index_bg_xl.jpg");
+	      background-repeat: no-repeat;
+	      background-attachment: fixed;
+	      background-size: cover;
+		  
+	      
+	}
+	     div#container{
+		 width:80%;
+		 height:1100px;
+		 margin-top:100px;
+		 margin-left:10%;
+		 background-color:;
+		 }
+		 div#content{
+		      width:80%;
+			  height:14%;
+			  margin-left:10%;
+		 }
+		 div#ph{
+		      width:20%;
+			  height:100%;
+			  float:left;
+			  margin-left:5%;
+			  margin-right:5%;
+			   background-color:white;
+		 }
+		 div#phc{
+		    width:70%;
+			  height:100%;
+			  float:left;
+			   background-color:white;
+		 }
+		 
+		 
+		 
+/*底部*/
+		 footer {
+    background-color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    color: #999;
+    padding: 40px 0;
+    margin-top: 100px;
+	width:100%;
+	
+}
+.contact {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact .phone {
+    margin-top: 10px;
+}
+
+.contact .email {
+    margin-top: 8px;
+}

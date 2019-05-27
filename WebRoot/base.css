@@ -1,0 +1,22 @@
+.navbar-brand{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.navbar-brand img{
+    height: 40px;
+    width: 30px;
+    margin-right: 10px;
+}
+.footer{
+    text-align: center;
+    color: #999; width: 100%;
+    font-size: 0.8em;
+    height: 70px;
+}
+.footer span{
+    margin: 0 1em;
+}
+.footer p{
+    margin-top: 0.5em;
+}

@@ -1,0 +1,25 @@
+body img.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+.content{
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.card-header a{
+    float: right;
+}
+h5{
+    display: inline-block;
+    margin-bottom: 0;
+}
+span.text{
+    float: right;
+}
+.footer{
+    color: #222222;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+}

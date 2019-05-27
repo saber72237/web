@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/login.do" location="50,50" dimension="341,116" />
+  <StrutsActivity path="/map.do" location="650,50" dimension="341,116" />
+  <StrutsActivity path="/signup.do" location="50,250" dimension="333,116" />
+  <StrutsActivity path="/update.do" location="650,250" dimension="351,116" />
+  <StrutsActivity path="/updatepw.do" location="50,450" dimension="354,116" />
+</FlowViewLayout>
+

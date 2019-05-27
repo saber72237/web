@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//
+EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans>
+  	<form-bean name = "loginForm" type = "com.chinasei.struts1.form.LoginForm"/>
+  	<form-bean name = "mapForm" type = "com.chinasei.struts1.form.LoginForm"/>
+  	<form-bean name = "signupForm" type = "com.chinasei.struts1.form.SignupForm"/>
+  	<form-bean name = "updateForm" type = "com.chinasei.struts1.form.SignupForm"/>
+  	<form-bean name = "updatepwForm" type = "com.chinasei.struts1.form.SignupForm"/>
+  </form-beans>	
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings>
+  	<action path = "/login" name = "loginForm"
+  			type = "com.chinasei.struts1.action.LoginAction"/>
+  	<action path = "/map" name = "mapForm"
+  			type = "com.chinasei.struts1.action.MapAction"/>
+  	<action path = "/signup" name = "signupForm"
+  			type = "com.chinasei.struts1.action.SignupAction"/>
+    <action path = "/update" name = "updateForm"
+  			type = "com.chinasei.struts1.action.UpdateAction"/>
+    <action path = "/updatepw" name = "updatepwForm"
+  			type = "com.chinasei.struts1.action.UpdatepwAction"/>
+  </action-mappings>
+  <message-resources parameter="com.yourcompany.struts1.ApplicationResources" />
+</struts-config>
+
